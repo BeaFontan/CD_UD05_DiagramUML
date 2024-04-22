@@ -1,1 +1,15 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>80</y><w>210</w><h>190</h></coordinates><panel_attributes>Animal
+--
+- nombre: String
+- especie: String
+- raza: String
+- propietario: Cliente
+- historialConsultar: ArrayList&lt;Consulta&gt;
+--
+
++ void agregarConsulta(Consulta)
++ String getNombre()
++ void setNombre(String nombre)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
